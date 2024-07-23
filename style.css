@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+.cus__logo {
+    max-width: 114px;
+}
+.d-none{
+    display: none;
+}
+.cus_nav__ul {
+    display: flex;
+    gap: 20px;
+}
+.cus_nav__ul li{
+    list-style: none;
+}
+.cus_nav__ul li a{
+    text-decoration: none;
+    font-size: 14.875px;
+    font-weight: 600;
+    line-height: 1.1em;
+    letter-spacing: -0.13px;
+    color: #333333;
+    padding: 19px 0px 17px 0px;
+}
+.d-flex{
+    display: flex;
+}
+.cus__icon svg{
+    color: #000000;
+}
+.cus__icon.cus_fav img {
+    width: 28px;
+    height: 28px;
+}
+.cus__icon.cus_login img{
+    width: 30px;
+    height: 30px;
+}
+.cus__icon.cus_cart img {
+    width: 30px;
+    height: 30px;
+}
+.cus__icon_Container{
+    display: flex;
+    align-items: center;
+    gap: 30px;  
+}
+.cus__row1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cus_nav__ul li:hover > a{
+    color: #E8297B;
+}
