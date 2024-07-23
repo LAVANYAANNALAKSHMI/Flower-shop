@@ -56,3 +56,9 @@
 .cus_nav__ul li:hover > a{
     color: #E8297B;
 }
+#CustomHeaderRow {
+    padding: 20px 0;
+}
+.cus_borderbottom{
+    border-bottom: 1px solid #cccccc6b;
+}
